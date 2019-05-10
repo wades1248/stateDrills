@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Component closes previously selected sections whena new section is selected 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+    <p>
+      Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?
+      /
+    </p>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component opens the clicked section 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+    <p>
+      Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!
+      /
+    </p>
+  </li>
+  <li
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component renders empty given no sections prop 1`] = `<ul />`;
+
+exports[`Accordion Component renders no sections as active by default 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
